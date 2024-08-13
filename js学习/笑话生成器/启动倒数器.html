@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="output" style="height: 410px;overflow: auto;"></div>
+    <script>
+        var output = document.querySelector('.output');
+            output.innerHTML = '';
+
+            // var i = 10;
+            var content;
+            for (i = 10; i >= 0; i--) {
+                if (i === 10) {
+                    content = "Countdown 10";
+                }
+                else if (i === 0) {
+                    content = "Blast off！";
+                }
+                else {
+                    content = i;
+                }
+                var para = document.createElement('p');
+                para.textContent = content;
+                output.appendChild(para);
+            }
+            
+    </script>
+</body>
+</html>

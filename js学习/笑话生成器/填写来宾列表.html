@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="output" style="height: 100px;overflow: auto;">
+        <p class="admitted">Admit:</p>
+        <p class="refused">Refuse:</p>
+    </div>
+    <script>
+        var people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
+
+        var admitted = document.querySelector('.admitted');
+        var refused = document.querySelector('.refused');
+        admitted.textContent = 'Admit: ';
+        refused.textContent = 'Refuse: '
+
+        var i = 0;
+        for(i=0;i<people.length;i++){
+            if (i !== people.length - 1) {
+                if (people[i] === "Lola" || people[i] === "Phil") {
+                    refused.textContent += people[i] + ", ";
+                }
+                else {
+                    admitted.textContent += people[i] + ", ";
+                }
+            }
+        }
+        
+         refused.textContent += refused.textContent.slice(0, refused.textContent.length-2)+'.';
+         admitted.textContent += admitted.textContent.slice(0, admitted.textContent.length - 2) + '.';
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+        }
+        .bd{
+           position:relative;
+           width: 960px;
+           height: 540px;
+           margin: 100px auto;
+        }
+        .pre,.next {
+            position: absolute;
+            width: 20px;
+            height: 30px;
+            top: 50%;
+            margin-top: -15px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .pre {
+            left: 0;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .next {
+            right: 0;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        .tb-nav {
+            position: absolute;
+            left: 50%;
+            margin-left: -35px;
+            bottom: 15px;
+            height: 13px;
+            width: 70px;
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 7px;
+        }
+        .tb-nav li {
+            float: left;
+            height: 8px;
+            width: 8px;
+            margin: 3px;
+            border-radius: 4px;
+            background-color: #fff;
+            text-align: center;
+            line-height: 8px;
+        }
+        .tb-nav .selected {
+             background-color: #fc9a07;
+        }
+    </style>
+</head>
+<body>
+    <div class="bd">
+        <img src="image/tb.jpg" alt="">
+        <a href="#" class="pre">&lt;</a>
+        <a href="#" class="next">&gt;</a>
+        <ul class="tb-nav">
+            <li class="selected"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>

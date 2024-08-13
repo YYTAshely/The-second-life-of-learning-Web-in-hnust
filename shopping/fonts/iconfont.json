@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6234166",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "41167542",
+      "name": " chevron_left",
+      "font_class": "chevron_left",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "41167544",
+      "name": " chevron_big_up",
+      "font_class": "chevron_big_up",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "41167552",
+      "name": " chevron_big_down",
+      "font_class": "chevron_big_down",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "41167575",
+      "name": " chevron_right",
+      "font_class": "chevron_right",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "41184377",
+      "name": " download",
+      "font_class": "download",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "41184388",
+      "name": " heart_outline",
+      "font_class": "heart_outline",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "41184400",
+      "name": " search",
+      "font_class": "search",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "41184404",
+      "name": " play_arrow",
+      "font_class": "play_arrow",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "41184406",
+      "name": " tag-outline",
+      "font_class": "tag-outline",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    }
+  ]
+}

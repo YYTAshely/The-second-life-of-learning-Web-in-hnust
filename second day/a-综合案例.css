@@ -1,0 +1,32 @@
+.tac {
+    text-align: center;
+}
+.fos {
+    font-size: small;
+}
+.gray {
+    color: #888888;
+}
+.teno {
+    text-decoration: none;
+}
+body {
+    font: 16px/28px 'Microsoft yahei';
+}
+h1 {
+    font-weight: 400;
+}
+.search {
+    color: #666;
+    width: 170px;
+}
+.btn {
+    font-weight: 700;
+}
+p {
+    text-indent: 2em;
+}
+.footer {
+    color: #888888;
+    font-size: 12px;
+}

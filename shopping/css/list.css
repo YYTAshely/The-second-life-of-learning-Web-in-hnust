@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.ttf?t=1722320787510') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sk_list {
+    float: left;
+}
+.sk_con {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+    height: 45px;
+    margin: 0 28px;
+    line-height: 45px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.sk_list ul li a {
+    color: #060606
+}
+.sk_con ul li {
+    float: left;
+    height: 45px;
+    margin: 0 23px;
+    line-height: 47px;
+}
+.sk_con ul li .iconfont::after {
+    content: '\e61d';
+}
+.list_bd ul li {
+    float: left;
+    margin-right: 22px;
+}
+.list_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}

@@ -1,0 +1,52 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    border-bottom: 2px solid #c81622;
+    padding-top: 17px;
+}
+.registerarea {
+    height: 1200px;
+    margin-top: 20px;
+    border: 1px solid #eaece9;
+
+}
+.registerarea h3 {
+    height: 30px;
+    background-color: #eaece9;
+    padding: 0 10px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #666666;
+}
+.registerarea h3 .login {
+    float: right;
+    font-size: 14px;
+}
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+    background-color: pink;
+}
+.reg_form ul li span {
+    color: #c81622;
+    font-size: 14px;
+}
+.reg_form ul li input {
+    width: 240px;
+    height: 20px;
+}
+.reg_form ul li label {
+    width: 100px;
+    text-align: right;
+}
+.error_icon,
+.success_icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.success_icon {
+    background: url();
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>   
+<body>
+    <form action="xxx.php" method="get">
+        昵称：<input name="username" type="text" maxlength="4">  <br>
+        性别：<label for="woman">女</label> <input type="radio" name="gender" checked="checked" id="woman"> <label for="man">男</label> <input type="radio" name="gender" id="man"> <br>
+        请输入你的密码：<input name="PWD" type="password"> <br>
+        <div>请选择你最喜欢的角色：</div>
+        瑟琳<input name="role" type="checkbox" checked> 罗喉<input name="role" type="checkbox"> 克里斯蒂娜<input name="role" type="checkbox">
+        <br>
+        <input type="submit" value="开始游戏"> <br>
+        <input type="reset" value="重新填写"> <br>
+        <div>选择你最喜欢的游戏：</div>
+        <select>
+            <option>重返未来1999</option>
+            <option selected>无期迷途</option>
+            <option>明日方舟</option>
+        </select><br>
+        请用一句话来描述你最喜欢的游戏：<br>
+        <textarea>57你最好给我活下来</textarea><br>
+        <input type="button" value="保存游戏"> <br>
+        <input type="file" value="上传你推图片">
+    </form>
+</body>
+</html>
